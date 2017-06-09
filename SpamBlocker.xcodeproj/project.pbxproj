@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C63BCBC71EEAF47E005028AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63BCBC61EEAF47E005028AC /* AppDelegate.swift */; };
+		C63BCBC91EEAF47E005028AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63BCBC81EEAF47E005028AC /* ViewController.swift */; };
+		C63BCBCC1EEAF47E005028AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63BCBCA1EEAF47E005028AC /* Main.storyboard */; };
+		C63BCBCE1EEAF47E005028AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63BCBCD1EEAF47E005028AC /* Assets.xcassets */; };
+		C63BCBD11EEAF47E005028AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63BCBCF1EEAF47E005028AC /* LaunchScreen.storyboard */; };
+		C63BCBDC1EEAF47E005028AC /* SpamBlockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63BCBDB1EEAF47E005028AC /* SpamBlockerTests.swift */; };
+		C63BCBE71EEAF47E005028AC /* SpamBlockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63BCBE61EEAF47E005028AC /* SpamBlockerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C63BCBD81EEAF47E005028AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C63BCBBB1EEAF47E005028AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C63BCBC21EEAF47E005028AC;
+			remoteInfo = SpamBlocker;
+		};
+		C63BCBE31EEAF47E005028AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C63BCBBB1EEAF47E005028AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C63BCBC21EEAF47E005028AC;
+			remoteInfo = SpamBlocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C63BCBC31EEAF47E005028AC /* SpamBlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpamBlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63BCBC61EEAF47E005028AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C63BCBC81EEAF47E005028AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C63BCBCB1EEAF47E005028AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C63BCBCD1EEAF47E005028AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C63BCBD01EEAF47E005028AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C63BCBD21EEAF47E005028AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63BCBD71EEAF47E005028AC /* SpamBlockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpamBlockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63BCBDB1EEAF47E005028AC /* SpamBlockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpamBlockerTests.swift; sourceTree = "<group>"; };
+		C63BCBDD1EEAF47E005028AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63BCBE21EEAF47E005028AC /* SpamBlockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpamBlockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63BCBE61EEAF47E005028AC /* SpamBlockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpamBlockerUITests.swift; sourceTree = "<group>"; };
+		C63BCBE81EEAF47E005028AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C63BCBC01EEAF47E005028AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63BCBD41EEAF47E005028AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63BCBDF1EEAF47E005028AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C63BCBBA1EEAF47E005028AC = {
+			isa = PBXGroup;
+			children = (
+				C63BCBC51EEAF47E005028AC /* SpamBlocker */,
+				C63BCBDA1EEAF47E005028AC /* SpamBlockerTests */,
+				C63BCBE51EEAF47E005028AC /* SpamBlockerUITests */,
+				C63BCBC41EEAF47E005028AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C63BCBC41EEAF47E005028AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C63BCBC31EEAF47E005028AC /* SpamBlocker.app */,
+				C63BCBD71EEAF47E005028AC /* SpamBlockerTests.xctest */,
+				C63BCBE21EEAF47E005028AC /* SpamBlockerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C63BCBC51EEAF47E005028AC /* SpamBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				C63BCBC61EEAF47E005028AC /* AppDelegate.swift */,
+				C63BCBC81EEAF47E005028AC /* ViewController.swift */,
+				C63BCBCA1EEAF47E005028AC /* Main.storyboard */,
+				C63BCBCD1EEAF47E005028AC /* Assets.xcassets */,
+				C63BCBCF1EEAF47E005028AC /* LaunchScreen.storyboard */,
+				C63BCBD21EEAF47E005028AC /* Info.plist */,
+			);
+			path = SpamBlocker;
+			sourceTree = "<group>";
+		};
+		C63BCBDA1EEAF47E005028AC /* SpamBlockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C63BCBDB1EEAF47E005028AC /* SpamBlockerTests.swift */,
+				C63BCBDD1EEAF47E005028AC /* Info.plist */,
+			);
+			path = SpamBlockerTests;
+			sourceTree = "<group>";
+		};
+		C63BCBE51EEAF47E005028AC /* SpamBlockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C63BCBE61EEAF47E005028AC /* SpamBlockerUITests.swift */,
+				C63BCBE81EEAF47E005028AC /* Info.plist */,
+			);
+			path = SpamBlockerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C63BCBC21EEAF47E005028AC /* SpamBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63BCBEB1EEAF47E005028AC /* Build configuration list for PBXNativeTarget "SpamBlocker" */;
+			buildPhases = (
+				C63BCBBF1EEAF47E005028AC /* Sources */,
+				C63BCBC01EEAF47E005028AC /* Frameworks */,
+				C63BCBC11EEAF47E005028AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpamBlocker;
+			productName = SpamBlocker;
+			productReference = C63BCBC31EEAF47E005028AC /* SpamBlocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C63BCBD61EEAF47E005028AC /* SpamBlockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63BCBEE1EEAF47E005028AC /* Build configuration list for PBXNativeTarget "SpamBlockerTests" */;
+			buildPhases = (
+				C63BCBD31EEAF47E005028AC /* Sources */,
+				C63BCBD41EEAF47E005028AC /* Frameworks */,
+				C63BCBD51EEAF47E005028AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C63BCBD91EEAF47E005028AC /* PBXTargetDependency */,
+			);
+			name = SpamBlockerTests;
+			productName = SpamBlockerTests;
+			productReference = C63BCBD71EEAF47E005028AC /* SpamBlockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C63BCBE11EEAF47E005028AC /* SpamBlockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63BCBF11EEAF47E005028AC /* Build configuration list for PBXNativeTarget "SpamBlockerUITests" */;
+			buildPhases = (
+				C63BCBDE1EEAF47E005028AC /* Sources */,
+				C63BCBDF1EEAF47E005028AC /* Frameworks */,
+				C63BCBE01EEAF47E005028AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C63BCBE41EEAF47E005028AC /* PBXTargetDependency */,
+			);
+			name = SpamBlockerUITests;
+			productName = SpamBlockerUITests;
+			productReference = C63BCBE21EEAF47E005028AC /* SpamBlockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C63BCBBB1EEAF47E005028AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "dev.it-coldewey";
+				TargetAttributes = {
+					C63BCBC21EEAF47E005028AC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C63BCBD61EEAF47E005028AC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C63BCBC21EEAF47E005028AC;
+					};
+					C63BCBE11EEAF47E005028AC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C63BCBC21EEAF47E005028AC;
+					};
+				};
+			};
+			buildConfigurationList = C63BCBBE1EEAF47E005028AC /* Build configuration list for PBXProject "SpamBlocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C63BCBBA1EEAF47E005028AC;
+			productRefGroup = C63BCBC41EEAF47E005028AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C63BCBC21EEAF47E005028AC /* SpamBlocker */,
+				C63BCBD61EEAF47E005028AC /* SpamBlockerTests */,
+				C63BCBE11EEAF47E005028AC /* SpamBlockerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C63BCBC11EEAF47E005028AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63BCBD11EEAF47E005028AC /* LaunchScreen.storyboard in Resources */,
+				C63BCBCE1EEAF47E005028AC /* Assets.xcassets in Resources */,
+				C63BCBCC1EEAF47E005028AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63BCBD51EEAF47E005028AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63BCBE01EEAF47E005028AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C63BCBBF1EEAF47E005028AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63BCBC91EEAF47E005028AC /* ViewController.swift in Sources */,
+				C63BCBC71EEAF47E005028AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63BCBD31EEAF47E005028AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63BCBDC1EEAF47E005028AC /* SpamBlockerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63BCBDE1EEAF47E005028AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63BCBE71EEAF47E005028AC /* SpamBlockerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C63BCBD91EEAF47E005028AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C63BCBC21EEAF47E005028AC /* SpamBlocker */;
+			targetProxy = C63BCBD81EEAF47E005028AC /* PBXContainerItemProxy */;
+		};
+		C63BCBE41EEAF47E005028AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C63BCBC21EEAF47E005028AC /* SpamBlocker */;
+			targetProxy = C63BCBE31EEAF47E005028AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C63BCBCA1EEAF47E005028AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63BCBCB1EEAF47E005028AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C63BCBCF1EEAF47E005028AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63BCBD01EEAF47E005028AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C63BCBE91EEAF47E005028AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C63BCBEA1EEAF47E005028AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C63BCBEC1EEAF47E005028AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpamBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.it-c.SpamBlocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C63BCBED1EEAF47E005028AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpamBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.it-c.SpamBlocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C63BCBEF1EEAF47E005028AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpamBlockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.it-c.SpamBlockerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpamBlocker.app/SpamBlocker";
+			};
+			name = Debug;
+		};
+		C63BCBF01EEAF47E005028AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpamBlockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.it-c.SpamBlockerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpamBlocker.app/SpamBlocker";
+			};
+			name = Release;
+		};
+		C63BCBF21EEAF47E005028AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SpamBlockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.it-c.SpamBlockerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpamBlocker;
+			};
+			name = Debug;
+		};
+		C63BCBF31EEAF47E005028AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SpamBlockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.it-c.SpamBlockerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpamBlocker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C63BCBBE1EEAF47E005028AC /* Build configuration list for PBXProject "SpamBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63BCBE91EEAF47E005028AC /* Debug */,
+				C63BCBEA1EEAF47E005028AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63BCBEB1EEAF47E005028AC /* Build configuration list for PBXNativeTarget "SpamBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63BCBEC1EEAF47E005028AC /* Debug */,
+				C63BCBED1EEAF47E005028AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C63BCBEE1EEAF47E005028AC /* Build configuration list for PBXNativeTarget "SpamBlockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63BCBEF1EEAF47E005028AC /* Debug */,
+				C63BCBF01EEAF47E005028AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C63BCBF11EEAF47E005028AC /* Build configuration list for PBXNativeTarget "SpamBlockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63BCBF21EEAF47E005028AC /* Debug */,
+				C63BCBF31EEAF47E005028AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C63BCBBB1EEAF47E005028AC /* Project object */;
+}
